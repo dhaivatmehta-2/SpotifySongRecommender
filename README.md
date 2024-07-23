@@ -8,3 +8,5 @@
 const clientId = 'Your_Spotify_ClientId'; // Pls replace with your Spotify Client ID
 
 const clientSecret = 'Your_Spotify_ClientSecret'; // pls replace with your Spotify Client Secret
+
+•API links - from spotify's offical developer api tools
