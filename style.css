@@ -1,0 +1,100 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 90%;
+}
+
+#song-input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+button:active {
+    animation: click-animation 0.3s ease;
+}
+
+@keyframes click-animation {
+    0% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+    50% {
+        transform: scale(0.9);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+        transform: scale(1);
+        box-shadow: none;
+    }
+}
+
+#recommendations {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.recommendation {
+    padding: 10px;
+    margin: 10px 0;
+    background: #e0e0e0;
+    border-radius: 5px;
+}
+  .card {
+    margin-top: 20px;
+    padding: 20px;
+     background: #fff;
+
+    border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+.card p {
+    margin: 10px 0; 
+    color: #555; 
+}
+.card:hover {
+    background-color:rgba(128, 128, 128, 0.7);    transform: scale(1.05); 
+    transition: background-color 1s ease, transform 1s ease;
+
+}
